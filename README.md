@@ -17,6 +17,13 @@ curl -H "Accept: application/json" -H "Content-type: application/json" -X POST -
 }
 ```
 
+## Read
+```
+curl http://localhost:3000/ePYPhSR_tM
+
+Moved Permanently. Redirecting to http://www.google.com
+```
+
 ## Delete
 ```
 curl -H "Accept: application/json" -H "Content-type: application/json" -X DELETE -d '{"hash":"ePYPhSR_tM","authtoken":"5465bd75d890ca7a"}' http://localhost:3000
@@ -27,9 +34,4 @@ curl -H "Accept: application/json" -H "Content-type: application/json" -X DELETE
 }
 ```
 
-## Get
-```
-curl http://localhost:3000/ePYPhSR_tM
 
-Moved Permanently. Redirecting to http://www.google.com
-```
