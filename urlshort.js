@@ -5,7 +5,7 @@ var express   = require('express'),
     shortid   = require('shortid'),
     crypto    = require('crypto'),
     bcrypt    = require('bcrypt'),
-var urlshort  = {
+    urlshort  = {
       colors        : {
                       red   : '\033[31m',
                       blue  : '\033[34m',
